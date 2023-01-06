@@ -17,6 +17,21 @@ body {
   font-size: 20px;
   border-radius: 5px;
   border: 1px solid transparent;
+  background: #ffffff;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-lite {
+  color: #005fac;
+}
+.btn-lite:hover {
+  color: #fff;
+  background-color: #005fac;
+  border: 1px solid #fff;
 }
 
 /* Header */
@@ -46,15 +61,6 @@ body {
   margin-top: 24px;
   margin-bottom: 32px;
 }
-#header .container .btn-lite {
-  color: #005fac;
-}
-#header .container .btn-lite:hover {
-  color: #fff;
-  background-color: #005fac;
-  cursor: pointer;
-  border: 1px solid #fff;
-}
 
 /* Failure */
 #failure {
@@ -81,7 +87,6 @@ body {
   width: 400px;
   margin-top: 120px;
 }
-
 #failure .details h2 {
   color: #151414;
   font-weight: 700;
@@ -117,7 +122,6 @@ body {
   min-height: 270px;
   margin-bottom: 130px;
 }
-
 #plans .container {
   margin-top: 50px;
 }
@@ -129,13 +133,11 @@ body {
   text-align: center;
   margin-bottom: 56px;
 }
-
 #plans .container .content {
   width: 25%;
   float: left;
   text-align: center;
 }
-
 #plans .container .content img {
   width: 92px;
   height: 92px;
@@ -154,4 +156,37 @@ body {
   font-size: 25px;
   line-height: 29px;
   color: #737272;
+}
+
+/* Positive Mined */
+#positive-mind {
+  width: 100%;
+}
+
+#positive-mind .container {
+  position: relative;
+  height: 300px;
+  margin: 0 auto;
+}
+#positive-mind .container img {
+}
+#positive-mind .container .img .watch,
+#positive-mind .container .img .gradient {
+  position: absolute;
+  left: -30px;
+  bottom: 0;
+}
+#positive-mind .container .content {
+  position: absolute;
+  left: 30px;
+  top: 60px;
+}
+#positive-mind .container .content h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+}
+#positive-mind .container .content button {
+  margin-top: 24px;
 }
