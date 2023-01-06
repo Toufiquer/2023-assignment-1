@@ -182,7 +182,7 @@ body {
 #positive-mind .container .img .watch,
 #positive-mind .container .img .gradient {
   position: absolute;
-  /* left: -30px; */
+  left: -30px;
   bottom: 0;
 }
 #positive-mind .container .content {
