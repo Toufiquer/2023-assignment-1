@@ -110,3 +110,48 @@ body {
   margin-right: 10px;
   float: left;
 }
+
+/* My Plans */
+#plans {
+  width: 100%;
+  min-height: 270px;
+  margin-bottom: 130px;
+}
+
+#plans .container {
+  margin-top: 50px;
+}
+#plans .container h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+#plans .container .content {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+#plans .container .content img {
+  width: 92px;
+  height: 92px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+#plans .container .content h4 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #151414;
+  margin-bottom: 16px;
+}
+#plans .container .content p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #737272;
+}
